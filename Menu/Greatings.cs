@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticalWork
+namespace QA_Work.Menu
 {
     internal class Greatings
     {
