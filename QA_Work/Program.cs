@@ -7,8 +7,6 @@ public class Program
 {
     public static void Main()
     {
-        // Приветственное сообщение и запуск программы
-        Welcome.Start();
 
         // Вывод на экран приглашения к выбору калькулятора
         Console.WriteLine("Выберите калькулятор: ");
