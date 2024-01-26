@@ -79,8 +79,8 @@ public class BigInteger
     // Метод для вывода результата операции
     public static void PrintResult(string operation, List<int> result)
     {
-        Console.WriteLine($"{operation} Результат: " + string.Join("", result));
         Console.Clear();
+        Console.WriteLine($"{operation} Результат: " + string.Join("", result));
         Console.ReadLine();
         Calculator.Start();
     }

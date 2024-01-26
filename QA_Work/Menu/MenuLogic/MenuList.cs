@@ -10,28 +10,38 @@ internal class MenuList
     {
         new MenuOptions()
         {
-            Title = "Add",
-            OpenOperation = Addition.ShowAddResults
+            Title = "╔               ╗\n"
+                  + "       Add       \n"
+                  + "╚               ╝\n",
+            Open = Addition.ShowAddResults
         },
         new MenuOptions()
         {
-            Title = "Subtract",
-            OpenOperation = Substract.ShowExtractResults
+            Title = "╔               ╗\n"
+                  + "     Subtract    \n"
+                  + "╚               ╝\n",
+            Open = Substract.ShowExtractResults
         },
         new MenuOptions()
         {
-            Title = "Multiply",
-            OpenOperation = Multiply.ShowMultiplyResults
+            Title = "╔               ╗\n"
+                  + "     Multiply    \n"
+                  + "╚               ╝\n",
+            Open = Multiply.ShowMultiplyResults
         },
         new MenuOptions()
         {
-            Title = "Divide",
-            OpenOperation = Divide.ShowDivisionResults
+            Title = "╔               ╗\n"
+                  + "      Divide     \n"
+                  + "╚               ╝\n",
+            Open = Divide.ShowDivisionResults
         },
         new MenuOptions()
         {
-            Title = "Exit",
-            OpenOperation = Welcome.Stop
+            Title = "╔               ╗\n"
+                  + "       Exit      \n"
+                  + "╚               ╝\n",
+            Open = Welcome.Stop
         },
     };
 
@@ -40,28 +50,38 @@ internal class MenuList
     {
         new MenuOptions()
         {
-            Title = "Add",
-            OpenOperation = BigInteger.PerformAdd
+            Title = "╔               ╗\n"
+                  + "       Add       \n"
+                  + "╚               ╝\n",
+            Open = BigInteger.PerformAdd
         },
         new MenuOptions()
         {
-            Title = "Subtract",
-            OpenOperation = BigInteger.PerformSubstract
+            Title = "╔               ╗\n"
+                  + "     Subtract    \n"
+                  + "╚               ╝\n",
+            Open = BigInteger.PerformSubstract
         },
         new MenuOptions()
         {
-            Title = "Multiply",
-            OpenOperation = BigInteger.PerformMultiply
+            Title = "╔               ╗\n"
+                  + "     Multiply    \n"
+                  + "╚               ╝\n",
+            Open = BigInteger.PerformMultiply
         },
         new MenuOptions()
         {
-            Title = "Divide",
-            OpenOperation = BigInteger.PerformDivide
+            Title = "╔               ╗\n"
+                  + "      Divide     \n"
+                  + "╚               ╝\n",
+            Open = BigInteger.PerformDivide
         },
         new MenuOptions()
         {
-            Title = "Exit",
-            OpenOperation = Welcome.Stop
+            Title = "╔               ╗\n"
+                  + "       Exit      \n"
+                  + "╚               ╝\n",
+            Open = Welcome.Stop
         },
     };
 
@@ -70,18 +90,24 @@ internal class MenuList
     {
         new MenuOptions()
         {
-            Title = "System BigInteger",
-            OpenOperation = ShowMenu.ShowSecondActions
+            Title = "╔                  ╗\n"
+                  + "  System BigInteger \n"
+                  + "╚                  ╝\n",
+            Open = ShowMenu.ShowSecondActions
         },
         new MenuOptions()
         {
-            Title = "Other BigInteger",
-            OpenOperation = UserInterface.PerformCalculatorOperations
+            Title = "╔                  ╗\n"
+                  + "  Custom BigInteger \n"
+                  + "╚                  ╝\n",
+            Open = UserInterface.PerformCalculatorOperations
         },
         new MenuOptions()
         {
-            Title = "Exit",
-            OpenOperation = Welcome.Stop
+            Title = "╔               ╗\n"
+                  + "       Exit      \n"
+                  + "╚               ╝\n",
+            Open = Welcome.Stop
         },
     };
 }

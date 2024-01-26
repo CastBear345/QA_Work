@@ -45,11 +45,11 @@ internal class ShowMenu
             {
                 if (optionNumber == indexTab)
                 {
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    Console.BackgroundColor = ConsoleColor.White;
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.BackgroundColor = ConsoleColor.Green;
 
-                    // Дополнительное выделение для определенной опции (indexTab == 4)
-                    if (indexTab == 4)
+                    // Дополнительное выделение для определенной опции (indexTab == 5)
+                    if (indexTab == 5)
                     {
                         Console.ForegroundColor = ConsoleColor.White;
                         Console.BackgroundColor = ConsoleColor.Red;
@@ -71,7 +71,7 @@ internal class ShowMenu
             // Обработка клавиши Enter для выполнения выбранной опции
             if (keyInfo.Key == ConsoleKey.Enter)
             {
-                optionsCount[indexTab].OpenOperation();
+                optionsCount[indexTab].Open();
             }
             // Обработка клавиши Escape для выхода из меню
             else if (keyInfo.Key == ConsoleKey.Escape)

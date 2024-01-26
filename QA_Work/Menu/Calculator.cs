@@ -26,11 +26,14 @@ public class Calculator
             if (choice == 'д' || choice == 'Д' || choice == 'y' || choice == 'Y')
             {
                 // В случае согласия отображается первое меню
+
+                isTrue = false;
                 ShowMenu.ShowFirstActions();
             }
             else
             {
                 // В случае отказа выполняется следующая итерация цикла
+                isTrue = true;
                 continue;
             }
 

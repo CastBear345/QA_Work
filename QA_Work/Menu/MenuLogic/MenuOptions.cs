@@ -12,5 +12,5 @@ internal class MenuOptions
     public string? Title { get; set; }
 
     // Действие, которое выполняется при выборе опции
-    public Action? OpenOperation { get; set; }
+    public Action? Open { get; set; }
 }
